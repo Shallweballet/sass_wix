@@ -71,6 +71,8 @@ body{
             height: 785px;
             background-image: url(./elements/82fcd3_47a465bb9c6f4b52a0cc83f281806af8~mv2.avif);
             background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
             display: flex;
             align-items: end;
             justify-content: center;
@@ -177,6 +179,136 @@ body{
                 }
             }
         }
+
+        .our_services{
+
+            @include align_center;
+            flex-direction: column;
+            padding: 140px 0;
+            gap: 100px;
+
+            h4{
+                font-size: 36px;
+                font-weight: 500;
+                color: $primaryColor;
+            }
+
+            .examples{
+
+                display: flex;
+                justify-content: space-around;
+                gap: 70px;
+
+                .example{
+                    
+                    p{
+                        font-size: 18px;
+                        margin: 20px 0;
+                        color: $primaryColor;
+                    }
+
+                    span{
+                        font-size: 16px;
+                        color: $primaryColor;
+                    }
+                }
+            }
+
+            button{
+                @include button;
+                width: 230px;
+                color: $primaryColor;
+            }
+        }
+
+        .our_clients{
+
+            @include align_center;
+            flex-direction: column;
+            gap: 150px;
+            margin-bottom: 140px;
+            
+            h5{
+                font-size: 36px;
+                font-weight: 500;
+                color: $primaryColor;
+            }
+
+            .logos{
+
+                @include align_center;
+                gap: 200px;
+
+                p{
+                    font-size: 36px;
+                    font-weight: 500;
+                    color: $primaryColor;
+                }
+
+            }
+
+        }
+
+        .location{
+
+            @include align_center;
+            background-color: $primaryColor;
+            padding: 150px;
+            justify-content: center;
+            
+            iframe{
+                width: 1000px;
+                height: 500px;
+            }
+
+        }
+    }
+
+    footer{
+
+        background-color: $colorText;
+        display: flex;
+        align-items: start;
+        justify-content: space-around;
+        padding: 100px;
+
+        h6{
+            color: $whiteText;
+            font-size: 20px;
+        }
+
+        .left{
+            
+            ul{
+                margin-top: 20px;
+                list-style: none;
+                color: $whiteText;
+                font-size: 16px;
+            }
+        }
+
+        .mid{
+
+            ul{
+                margin-top: 20px;
+                list-style: none;
+                li{
+                    a{
+                        text-decoration: none;
+                        color: $whiteText;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+        .right{
+        
+            .platforms{
+                margin: 20px 0;
+            }
+        }
+
     }
 }
 

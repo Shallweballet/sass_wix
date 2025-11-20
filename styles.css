@@ -45,6 +45,8 @@ body main .main_background {
   height: 785px;
   background-image: url(./elements/82fcd3_47a465bb9c6f4b52a0cc83f281806af8~mv2.avif);
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   align-items: end;
   justify-content: center;
@@ -158,4 +160,103 @@ body main .about_us .overlay button {
 body main .about_us .overlay button:hover {
   background-color: rgb(12, 60, 96);
   color: white;
+}
+body main .our_services {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 140px 0;
+  gap: 100px;
+}
+body main .our_services h4 {
+  font-size: 36px;
+  font-weight: 500;
+  color: rgb(12, 60, 96);
+}
+body main .our_services .examples {
+  display: flex;
+  justify-content: space-around;
+  gap: 70px;
+}
+body main .our_services .examples .example p {
+  font-size: 18px;
+  margin: 20px 0;
+  color: rgb(12, 60, 96);
+}
+body main .our_services .examples .example span {
+  font-size: 16px;
+  color: rgb(12, 60, 96);
+}
+body main .our_services button {
+  height: 53px;
+  background: none;
+  border: 1px solid rgb(12, 60, 96);
+  width: 230px;
+  color: rgb(12, 60, 96);
+}
+body main .our_services button:hover {
+  background-color: rgb(12, 60, 96);
+  color: white;
+}
+body main .our_clients {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 150px;
+  margin-bottom: 140px;
+}
+body main .our_clients h5 {
+  font-size: 36px;
+  font-weight: 500;
+  color: rgb(12, 60, 96);
+}
+body main .our_clients .logos {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+body main .our_clients .logos p {
+  font-size: 36px;
+  font-weight: 500;
+  color: rgb(12, 60, 96);
+}
+body main .location {
+  display: flex;
+  align-items: center;
+  background-color: rgb(12, 60, 96);
+  padding: 150px;
+  justify-content: center;
+}
+body main .location iframe {
+  width: 1000px;
+  height: 500px;
+}
+body footer {
+  background-color: rgb(7, 33, 54);
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  padding: 100px;
+}
+body footer h6 {
+  color: white;
+  font-size: 20px;
+}
+body footer .left ul {
+  margin-top: 20px;
+  list-style: none;
+  color: white;
+  font-size: 16px;
+}
+body footer .mid ul {
+  margin-top: 20px;
+  list-style: none;
+}
+body footer .mid ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+body footer .right .platforms {
+  margin: 20px 0;
 }/*# sourceMappingURL=styles.css.map */
